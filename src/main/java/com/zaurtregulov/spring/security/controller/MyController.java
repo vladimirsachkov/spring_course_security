@@ -16,7 +16,7 @@ public class MyController {
         return "view_for_hr";
     }
 
-    @GetMapping("manager_info")
+    @GetMapping("/manager_info")
     public String getInfoOnlyForManagers() {
         return "view_for_managers";
     }
